@@ -1,3 +1,5 @@
+package com.example;
+
 public class App {
     public static String greet(String name) {
         return "Hello, " + name + "!";
@@ -6,4 +8,4 @@ public class App {
         System.out.println(greet(args.length > 0 ? args[0] : "World"));
     }
 }
-EOF
+
