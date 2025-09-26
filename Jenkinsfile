@@ -1,9 +1,5 @@
 pipeline {
-  agent { label 'agent_1' }   // use your agent's label; or use 'any'
-  tools {
-    maven 'maven'             // tool name from Global Tool Configuration
-    jdk 'JDK17'               // JDK tool name from Global Tool Configuration
-  }
+  agent { label 'agent_1' }   // use your agent's label; or use 'any' 
   stages {
     stage('Checkout') {
       steps {
