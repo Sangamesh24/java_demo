@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'agent_1' }   // use your agent's label; or use 'any' 
+  agent any   // use your agent's label; or use 'any' 
   stages {
     stage('Checkout') {
       steps {
