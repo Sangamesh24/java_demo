@@ -1,6 +1,6 @@
 pipeline {
   agent any   // use your agent's label; or use   'any' 
-  stages {
+  stages {    // this is to initiate stages in pipeline
     stage('Checkout') {
       steps {
         checkout scm
